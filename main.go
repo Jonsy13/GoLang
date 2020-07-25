@@ -20,7 +20,7 @@ func getArticles(w http.ResponseWriter, r *http.Request) {
 	articles := Articles{
 		Article{Title: "Jon", Desc: "Haitohai", Content: "Heloooo"},
 	}
-	fmt.Println("Endpoint Hii: All Articles EndPoint")
+	fmt.Println("Endpoint Hii: All Articles EndPoint Here")
 	json.NewEncoder(w).Encode(articles)
 }
 
